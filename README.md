@@ -4,6 +4,8 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Anais--RV-181717?style=flat&logo=github&logoColor=white)](https://github.com/Anais-RV/fullstack-survival-kit)
 [![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](LICENSE)
 
+> **Nota:** Material en revisión continua. Estoy matizando explicaciones, puliendo ejemplos y ajustando detalles según uso real en formaciones. El contenido principal está estable, pero pueden aparecer mejoras puntuales.
+
 ---
 
 ## Qué encontrarás aquí
@@ -129,8 +131,6 @@ Si entiendes HTTP, APIs REST, arquitectura cliente-servidor, autenticación con 
 Si solo memorizas sintaxis de React sin entender nada de lo anterior, cada proyecto nuevo es un infierno.
 
 ---
-
-## Estado actual del curriculum
 
 ## Estado actual del curriculum
 

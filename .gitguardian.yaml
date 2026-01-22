@@ -1,0 +1,18 @@
+# GitGuardian configuration
+# Este repositorio es material educativo con ejemplos de código
+# Las "credenciales" detectadas son ejemplos didácticos, no credenciales reales
+
+version: 2
+
+# Ignorar archivos de documentación que contienen ejemplos
+paths-ignore:
+  - "**/*.md"
+  - "**/README.md"
+  - "**/.git/**"
+  - "**/node_modules/**"
+  - "**/__pycache__/**"
+
+# Ignorar patrones específicos que son ejemplos educativos
+matches-ignore:
+  - name: Educational examples
+    match: password123|test_password|secret123|MiPassword123|tu-email@gmail.com|mi-email@gmail.com
