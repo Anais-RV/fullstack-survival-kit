@@ -1,302 +1,253 @@
 # Proyecto Integrador
 
-Has aprendido frontend, backend y bases de datos por separado. Ahora vas a conectarlo todo.
-
-**Este proyecto consolida todo el repositorio en una aplicación fullstack completa.**
+> **Aplicar todo lo aprendido en un proyecto FullStack completo**
 
 ---
 
-## Sobre este proyecto
+## Objetivo
 
-Este no es un proyecto "heroico" ni infinito. Es un proyecto guiado, iterativo y completable.
+Crear un **E-commerce FullStack profesional** que integre:
 
-El objetivo es:
-- Integrar frontend, backend y base de datos
-- Aplicar conceptos de todos los bloques anteriores
-- Construir algo funcional de principio a fin
-- Sentir que eres capaz de crear aplicaciones completas
-
-**El proyecto se construye en 7 iteraciones claras.** Cada iteración es completable y funcional por sí misma.
+- ✅ Frontend moderno con React
+- ✅ Backend robusto con Django
+- ✅ Base de datos PostgreSQL
+- ✅ Autenticación JWT
+- ✅ Testing completo (Unit + Integration + E2E)
+- ✅ Docker y CI/CD
+- ✅ Deploy en producción
 
 ---
 
-## Estructura del proyecto
+## Contenido del módulo
 
+### 01 - E-commerce Completo
+**Desarrollo paso a paso del proyecto**
+
+#### Stack tecnológico:
+- **Frontend:** React 18 + Vite + Tailwind CSS + Zustand
+- **Backend:** Django 5 + DRF + PostgreSQL 15 + JWT
+- **Testing:** Pytest + Vitest + Playwright
+- **DevOps:** Docker + GitHub Actions + Railway + Vercel
+
+#### Estructura del proyecto:
 ```
-proyecto-integrador/
-│
-├── docs/
-│   ├── 00-especificacion.md
-│   ├── 01-requisitos.md
-│   └── 02-modelo-datos.md
-│
-├── iteracion-1-configuracion/
-├── iteracion-2-backend-basico/
-├── iteracion-3-frontend-basico/
-├── iteracion-4-integracion/
-├── iteracion-5-autenticacion/
-├── iteracion-6-funcionalidades-completas/
-└── iteracion-7-mejoras-despliegue/
+ecommerce-fullstack/
+├── backend/
+│   ├── usuarios/        # Autenticación
+│   ├── productos/       # Catálogo
+│   ├── ordenes/         # Checkout
+│   └── tests/           # Pytest tests
+├── frontend/
+│   ├── src/
+│   │   ├── pages/       # Rutas principales
+│   │   ├── components/  # Componentes reutilizables
+│   │   ├── stores/      # Zustand stores
+│   │   └── services/    # API calls
+│   └── e2e/             # Playwright tests
+├── docker-compose.yml
+└── .github/workflows/   # CI/CD
+```
+
+**Tiempo estimado:** 8-12 horas
+
+---
+
+### 02 - Best Practices
+**Código limpio y profesional**
+
+#### Principios:
+- **Código limpio:** Nombres descriptivos, funciones pequeñas, DRY, manejo de errores
+- **Arquitectura:** SOLID principles, separación de responsabilidades
+- **Performance:** select_related, indexes, paginación, lazy loading, memoización
+- **Seguridad:** Validación, permisos, rate limiting, HTTPS
+- **Testing:** 80%+ coverage, tests unitarios + integración + E2E
+
+#### Herramientas:
+- **Linting:** Black, Flake8, ESLint, Prettier
+- **Pre-commit hooks:** Ejecutar linters antes de commit
+- **Code review:** Pull requests con revisión
+
+**Tiempo estimado:** 2-4 horas
+
+---
+
+### 03 - Portfolio y Presentación
+**Mostrar tu trabajo profesionalmente**
+
+#### Componentes:
+- **README profesional:** Descripción, features, stack, instalación, testing, deploy, screenshots
+- **Screenshots:** Homepage, catálogo, detalle, carrito, checkout, perfil, admin
+- **Demo Video:** 2-3 minutos mostrando flujo completo
+- **Presentación oral:** 5 minutos (contexto, stack, features, desafíos, testing, deploy)
+- **Difusión:** GitHub, LinkedIn, Portfolio, CV
+
+**Tiempo estimado:** 2-3 horas
+
+**Tiempo estimado:** 2-3 horas
+
+---
+
+## Flujo de trabajo completo
+
+### Fase 1: Desarrollo (8-12 horas)
+```
+1. Setup inicial (1h)
+   - Crear repositorios
+   - Configurar Django + React
+   - Docker Compose
+
+2. Backend (3-4h)
+   - Modelos (Usuario, Producto, Orden)
+   - Serializers + ViewSets + endpoints
+   - Autenticación JWT
+
+3. Frontend (3-4h)
+   - Routing con React Router
+   - Páginas principales
+   - Estado global (Zustand)
+   - Services (Axios)
+
+4. Testing (2h)
+   - Tests unitarios (Pytest + Vitest)
+   - Tests E2E (Playwright)
+
+5. Deploy (1h)
+   - Docker + GitHub Actions
+   - Railway + Vercel
 ```
 
 ---
 
-## Dominio del proyecto
-
-**El dominio específico se definirá más adelante**, pero debe cumplir:
-
-- Tener al menos 3 entidades relacionadas (ej: usuarios, publicaciones, comentarios)
-- Requerir autenticación
-- Permitir crear, leer, actualizar y eliminar datos (CRUD)
-- Ser suficientemente realista pero no excesivamente complejo
-
-Ejemplos posibles:
-- Sistema de gestión de tareas con equipos
-- Plataforma de recetas con valoraciones
-- Sistema de biblioteca personal
-- Gestor de inventario simple
+### Fase 2: Refinamiento (2-4 horas)
+```
+1. Code review (1h) - Best practices
+2. Performance (1h) - Optimizaciones
+3. Seguridad (1h) - Validaciones y permisos
+4. Testing coverage (1h) - Llegar a 80%+
+```
 
 ---
 
-## Iteración 1: Configuración y estructura
-
-### Objetivo
-Preparar el entorno de desarrollo y la estructura del proyecto.
-
-### Qué se hace
-- Inicializar repositorio Git
-- Configurar estructura de carpetas (frontend / backend)
-- Instalar dependencias básicas
-- Configurar variables de entorno
-- Probar que todo arranca correctamente
-
-### Qué se consolida
-- **`00-orientacion`** → Configuración de entorno
-- **`02-fundamentos`** → Estructura de proyecto
-
-### Resultado esperado
-Proyecto vacío pero funcional. Frontend y backend arrancan sin errores.
+### Fase 3: Presentación (2-3 horas)
+```
+1. README (1h) - Documentación completa
+2. Screenshots (30min) - Capturas de pantalla
+3. Demo video (1h) - Video de 2-3 minutos
+4. Difusión (30min) - LinkedIn, Portfolio, CV
+```
 
 ---
 
-## Iteración 2: Backend básico
+## Criterios de evaluación
 
-### Objetivo
-Crear la API REST con las rutas principales.
+### Funcionalidad (40%)
+- [ ] Todas las features funcionan correctamente
+- [ ] Sin bugs críticos
+- [ ] Responsive design
+- [ ] UX intuitiva
 
-### Qué se hace
-- Configurar servidor HTTP
-- Definir rutas para los recursos principales
-- Implementar CRUD básico (sin base de datos todavía, usar arrays en memoria)
-- Añadir validación de datos
-- Configurar CORS
+### Código (30%)
+- [ ] Código limpio y legible
+- [ ] Best practices aplicadas
+- [ ] Sin código duplicado
+- [ ] Manejo correcto de errores
 
-### Qué se consolida
-- **`03-backend`** → Servidor, rutas, API REST, validación
-- **POO** → Modelar entidades con clases
+### Testing (15%)
+- [ ] 80%+ code coverage
+- [ ] Tests unitarios
+- [ ] Tests de integración
+- [ ] Tests E2E en flujos críticos
 
-### Resultado esperado
-API funcional que responde a peticiones. Se puede probar con Postman o cliente HTTP.
+### Deploy (10%)
+- [ ] CI/CD configurado
+- [ ] Deploy automático
+- [ ] Variables de entorno
+- [ ] HTTPS configurado
 
----
-
-## Iteración 3: Frontend básico
-
-### Objetivo
-Crear la interfaz de usuario con las vistas principales.
-
-### Qué se hace
-- Configurar React (o framework elegido)
-- Crear componentes principales
-- Implementar enrutamiento entre vistas
-- Diseñar layout responsive básico
-- Mostrar datos de prueba (hardcoded, sin conectar con backend todavía)
-
-### Qué se consolida
-- **`03-frontend`** → React, componentes, routing, estilos
-
-### Resultado esperado
-Interfaz navegable con datos de prueba. Se ve bien en diferentes pantallas.
+### Documentación (5%)
+- [ ] README completo
+- [ ] Código documentado
+- [ ] API documentada
+- [ ] Instrucciones claras
 
 ---
 
-## Iteración 4: Integración frontend-backend
+## Checklist final
 
-### Objetivo
-Conectar frontend con backend. Hacer que los datos fluyan.
+### Antes de presentar:
+- [ ] Demo funcional en producción
+- [ ] Tests pasando (100%)
+- [ ] CI/CD configurado
+- [ ] README completo
+- [ ] Screenshots de calidad
+- [ ] Demo video (2-3 min)
+- [ ] Sin console.logs en producción
+- [ ] Sin errores en consola
+- [ ] Responsive design funcionando
+- [ ] Performance optimizada (Lighthouse 90+)
 
-### Qué se hace
-- Implementar peticiones HTTP desde el frontend
-- Mostrar datos reales del backend
-- Manejar estados de loading y errores
-- Implementar formularios que envíen datos al backend
-- Sincronizar estado del frontend con respuestas del servidor
-
-### Qué se consolida
-- **`06-integracion-fullstack`** → Comunicación entre capas
-- **`03-frontend`** → useEffect, fetch, manejo de estado
-
-### Resultado esperado
-Aplicación funcional que crea, lee, actualiza y elimina datos. Frontend y backend se comunican correctamente.
-
----
-
-## Iteración 5: Autenticación end-to-end
-
-### Objetivo
-Proteger recursos y gestionar usuarios.
-
-### Qué se hace
-- Implementar registro y login en el backend
-- Hash de contraseñas con bcrypt
-- Generar y validar JWT
-- Proteger rutas en el backend
-- Implementar login/registro en el frontend
-- Guardar token en el cliente
-- Proteger rutas en el frontend
-- Implementar logout
-
-### Qué se consolida
-- **`03-backend`** → Autenticación, JWT, middleware
-- **`03-frontend`** → Formularios, Context API (estado global)
-- **`06-integracion-fullstack`** → Flujo de autenticación completo
-
-### Resultado esperado
-Sistema de autenticación funcional. Solo usuarios autenticados acceden a ciertas partes de la aplicación.
+### Para difundir:
+- [ ] Repositorio público en GitHub
+- [ ] Post en LinkedIn
+- [ ] Agregar a portfolio website
+- [ ] Actualizar CV con proyecto
+- [ ] Preparar presentación oral (5 min)
+- [ ] Preparar respuestas a preguntas frecuentes
 
 ---
 
-## Iteración 6: Funcionalidades completas
+## ¡Felicitaciones! 🎉
 
-### Objetivo
-Añadir funcionalidades específicas del dominio y pulir la aplicación.
+Has completado tu proyecto FullStack profesional. Este proyecto demuestra:
 
-### Qué se hace
-- Conectar con base de datos real (MongoDB o PostgreSQL)
-- Implementar relaciones entre entidades
-- Añadir búsqueda y filtros
-- Implementar paginación si es necesario
-- Validación completa en frontend y backend
-- Mensajes de feedback claros para el usuario
+- ✅ Dominio de React (componentes, hooks, routing, estado)
+- ✅ Dominio de Django (models, serializers, views, autenticación)
+- ✅ Integración Frontend ↔ Backend ↔ Base de datos
+- ✅ Testing automatizado (Unit + Integration + E2E)
+- ✅ CI/CD y deployment profesional
+- ✅ Best practices y código limpio
 
-### Qué se consolida
-- **`05-bases-de-datos`** → Conexión, consultas, relaciones
-- **`03-backend`** → Arquitectura en capas, servicios
-- **`03-frontend`** → Formularios complejos, UX
-
-### Resultado esperado
-Aplicación completa con base de datos real. Funciona como sistema de producción (aunque local).
+**Este proyecto es tu carta de presentación como desarrollador FullStack.**
 
 ---
 
-## Iteración 7: Mejoras y despliegue
+## Próximos pasos
 
-### Objetivo
-Pulir detalles, añadir tests básicos y desplegar.
+Ahora puedes:
 
-### Qué se hace
-- Añadir tests básicos (frontend y backend)
-- Mejorar estilos y UX
-- Optimizar rendimiento
-- Configurar build de producción
-- Desplegar frontend (Vercel, Netlify)
-- Desplegar backend (Render, Railway)
-- Desplegar base de datos (MongoDB Atlas, Supabase)
-- Configurar variables de entorno en producción
+1. **Agregar features avanzadas:**
+   - Pasarela de pagos (Stripe)
+   - Notificaciones en tiempo real (WebSockets)
+   - Sistema de reseñas
+   - Chat de soporte
+   - Dashboard de métricas
 
-### Qué se consolida
-- **`07-testing`** → Tests unitarios y de integración
-- **`09-despliegue`** → Configuración de producción, hosting
+2. **Explorar nuevas tecnologías:**
+   - Next.js (SSR, SSG)
+   - GraphQL
+   - Microservicios
+   - Redis (cache)
+   - Elasticsearch (búsqueda)
 
-### Resultado esperado
-Aplicación pública en internet. Funcional, accesible desde cualquier lugar.
+3. **Contribuir a open source:**
+   - Django REST Framework
+   - React
+   - Proyectos relacionados
 
----
+4. **Crear más proyectos:**
+   - Blog
+   - Red social
+   - Task manager
+   - Real-time chat
+   - API pública
 
-## Duración estimada
+5. **Aplicar a trabajos:**
+   - Con este proyecto en tu portfolio
+   - Y el conocimiento adquirido
+   - Estás listo para posiciones junior/mid-level
 
-- **Iteración 1:** 1-2 días
-- **Iteración 2:** 3-5 días
-- **Iteración 3:** 3-5 días
-- **Iteración 4:** 2-4 días
-- **Iteración 5:** 3-4 días
-- **Iteración 6:** 4-6 días
-- **Iteración 7:** 2-4 días
+¡Éxito en tu carrera como desarrollador FullStack! 🚀✨
 
-**Total:** 3-4 semanas trabajando de forma constante.
-
-Esto es orientativo. Cada persona avanza a su ritmo.
-
----
-
-## Principios pedagógicos aplicados
-
-### Iteraciones completables
-Cada iteración termina con algo funcional. No hay "mitades" del proyecto.
-
-### Progresión lógica
-Primero backend, luego frontend, luego integración, luego autenticación. Cada pieza sobre la anterior.
-
-### Consolidación de conceptos
-Cada iteración aplica conceptos de bloques específicos del repositorio. No se inventa nada nuevo aquí.
-
-### Proyecto realista pero guiado
-No es un tutorial paso a paso, pero sí tiene estructura clara y expectativas definidas.
-
----
-
-## Relación con otros bloques
-
-Este proyecto usa:
-- **`00-orientacion`** → Configuración inicial
-- **`02-fundamentos`** → Base de todo
-- **`03-frontend`** → Interfaz completa
-- **`03-backend`** → API, POO, autenticación
-- **`05-bases-de-datos`** → Persistencia
-- **`06-integracion-fullstack`** → Conexión entre capas
-- **`07-testing`** → Calidad del código
-- **`09-despliegue`** → Publicación
-
-Es la suma de todo el repositorio.
-
----
-
-## Qué hacer si te atascas
-
-1. **Revisa el módulo correspondiente** en el bloque que estás aplicando
-2. **Consulta los errores** en la sección "Errores comunes" del módulo
-3. **Simplifica** la iteración si es demasiado compleja
-4. **Pide ayuda** o busca ejemplos similares
-5. **Avanza** aunque no sea perfecto. Puedes volver después
-
-**El objetivo es terminar, no que sea perfecto.**
-
----
-
-## Después de este proyecto
-
-Cuando termines, tendrás:
-- Una aplicación fullstack completa en tu portafolio
-- Experiencia integrando todas las piezas
-- Conocimiento práctico de todo el stack
-- Confianza para empezar proyectos propios
-
-Puedes:
-- Extender este proyecto con nuevas funcionalidades
-- Construir un proyecto similar desde cero (ahora sin guía)
-- Explorar el bloque `08-arquitectura` para mejorar tu código
-- Especializarte en frontend o backend según tus intereses
-
----
-
-## Validación antes de empezar
-
-Antes de definir el dominio concreto y escribir las guías, valida que:
-- [ ] Las 7 iteraciones tienen sentido como progresión
-- [ ] Cada iteración es completable y autónoma
-- [ ] El proyecto no es demasiado ambicioso
-- [ ] Cubre los bloques principales del repositorio
-- [ ] El tiempo estimado es razonable
 
 ---
 

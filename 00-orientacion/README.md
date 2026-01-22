@@ -96,6 +96,28 @@ Este módulo responde:
 
 ---
 
+### [06-git-github-esencial.md](./06-git-github-esencial.md) ⭐ **IMPRESCINDIBLE**
+**Descripción:** Control de versiones con Git y GitHub. La herramienta más importante después de tu editor de código. Sin esto, no puedes trabajar profesionalmente.
+
+**Duración:** 45-60 minutos de lectura + práctica
+
+**Aprenderás:**
+- Qué es Git y por qué es absolutamente obligatorio
+- Comandos esenciales: `init`, `add`, `commit`, `push`, `pull`
+- Crear tu primer repositorio en GitHub
+- Flujo de trabajo con ramas (branches)
+- Pull Requests para trabajo en equipo
+- Crear tu perfil profesional de GitHub (tu CV técnico)
+- Convenciones de commits profesionales
+- Resolver conflictos de merge
+- `.gitignore` y qué archivos NO subir
+
+**⚠️ CRÍTICO:** Git/GitHub no es opcional. Es la herramienta #1 de la industria. TODO tu código debe estar en Git desde el día 1.
+
+**Tu perfil de GitHub ES tu portfolio.** Los reclutadores lo revisan antes que tu CV.
+
+---
+
 ## Orden recomendado
 
 Si es tu primera vez aquí:
@@ -105,10 +127,11 @@ Si es tu primera vez aquí:
 3. **03-mapa-del-recorrido.md** — El viaje completo
 4. **04-configuracion-entorno.md** — Instala las herramientas
 5. **05-herramientas-esenciales.md** — Entiende qué instalaste
+6. **06-git-github-esencial.md** ⭐ — Control de versiones (OBLIGATORIO)
 
-**Total:** 2-3 horas incluyendo instalaciones.
+**Total:** 3-4 horas incluyendo instalaciones y práctica con Git.
 
-Si ya tienes todo instalado y solo quieres entender el contexto: lee 01, 02 y 03.
+Si ya tienes todo instalado y solo quieres entender el contexto: lee 01, 02, 03 y 06.
 
 ---
 
@@ -122,7 +145,12 @@ Marca estas casillas antes de continuar:
 - [ ] Tienes Python instalado y funcionando
 - [ ] Tienes Node.js instalado y funcionando
 - [ ] Tienes VSCode instalado con las extensiones esenciales
-- [ ] Tienes Git instalado y configurado
+- [ ] Tienes Git instalado y configurado (`git --version` funciona)
+- [ ] Tienes cuenta en GitHub verificada
+- [ ] Creaste tu primer repositorio en GitHub
+- [ ] Hiciste al menos 5 commits
+- [ ] Entiendes `git add`, `git commit`, `git push`
+- [ ] Creaste un README.md en tu perfil de GitHub
 - [ ] Puedes crear y activar un entorno virtual de Python
 - [ ] Entiendes para qué sirve cada herramienta
 

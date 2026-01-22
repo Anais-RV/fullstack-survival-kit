@@ -12,6 +12,8 @@
 
 **FullStack Survival Kit** es un programa educativo completo, estructurado y progresivo para aprender desarrollo web moderno **desde cero hasta proyectos fullstack profesionales**.
 
+> 💡 **Proyecto pedagógico personal** creado por **[Anaïs Rodríguez Villanueva](https://www.linkedin.com/in/anaisvillanueva/)** en su tiempo libre, con el objetivo de compartir conocimiento y facilitar el aprendizaje del desarrollo web a cualquier persona con ganas de aprender.
+
 Este material cubre:
 - ✅ **Frontend moderno**: HTML5, CSS3, JavaScript ES6+, React 19
 - ✅ **Backend robusto**: Python, Django, APIs REST, arquitectura de servidor
@@ -184,7 +186,7 @@ Cada módulo incluye:
 Aprender a programar no va de memorizar sintaxis ni de seguir tutoriales infinitos.  
 Va de **entender, equivocarse, ajustar y volver a intentarlo**.
 
-Soy exalumna convertida en formadora, así que conozco bien el vértigo, la frustración y los bloqueos que aparecen al aprender desarrollo web. Por eso diseño materiales que priorizan:
+Soy exalumna digi-evolucionada a desarrolladora, con vocación docente desde siempre, así que conozco bien el vértigo, la frustración y los bloqueos que aparecen al aprender desarrollo web. Por eso diseño materiales que priorizan:
 
 - 🧠 **Aprender a aprender**, por encima de cualquier framework concreto
 - 🔥 **Autonomía y pensamiento crítico**: mis alumnos incendian proyectos y yo les enseño a ser bomberos

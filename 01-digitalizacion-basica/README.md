@@ -1,23 +1,122 @@
-# Digitalización básica
+# Digitalización Básica
 
-Este bloque es tu punto de partida si nunca has programado.
-
-**Objetivo:** Reducir vértigo, generar confianza y entender el terreno antes de profundizar.
+> **Primer contacto con el código para quien nunca ha programado**
 
 ---
 
-## Sobre este bloque
+## ¿Para quién es este módulo?
 
-Este NO es un bloque técnico profundo. Es un aterrizaje suave.
+Este módulo es tu **aterrizaje suave** al mundo de la programación.
 
-Aquí vas a:
-- Entender qué es un ordenador, internet y el desarrollo web sin tecnicismos
-- Ver con tus propios ojos qué hace el frontend y qué hace el backend
-- Escribir tu primera línea de código y ver resultados en pantalla
-- Tocar, romper y arreglar cosas en un entorno seguro
-- Comprender que experimentar es parte del proceso, no un error
+Es para ti si:
+- ✅ Nunca has escrito una línea de código
+- ✅ No sabes qué es HTML, CSS o JavaScript
+- ✅ Quieres entender el contexto antes de lanzarte
+- ✅ Tienes curiosidad pero también algo de vértigo
+- ✅ Has intentado otros tutoriales y te abrumaron
 
-**Después de este bloque, irás a [/02-frontend/fundamentos](../02-frontend/fundamentos/README.md) para construir base técnica sólida.**
+**Si ya sabes HTML/CSS/JavaScript básico**, salta directamente a [02-frontend/fundamentos](../02-frontend/fundamentos/README.md).
+
+---
+
+## ¿Qué vas a aprender?
+
+No aprenderás a programar profesionalmente en este módulo. Aprenderás:
+
+- 🧠 **Cómo piensa un ordenador** y por qué necesita instrucciones tan específicas
+- 🌐 **Cómo funciona internet** y la web que usas cada día
+- 🎨 **Qué es frontend y qué es backend** con ejemplos visuales
+- 📝 **Tu primer archivo HTML** funcionando en un navegador
+- 🎮 **Experimentar con código** sin miedo a romper nada
+- 🔧 **Las herramientas del desarrollador** que todos usan
+- 💡 **La mentalidad correcta** para aprender a programar
+
+**Objetivo:** Que pierdas el miedo, entiendas el terreno y te sientas listo/a para profundizar.
+
+---
+
+## Estructura del módulo
+
+### `01-bienvenida-al-codigo.md`
+**Descripción:** Introducción sin tecnicismos. Qué es programar, qué necesitas, mentalidad correcta.  
+**Duración estimada:** 10 minutos  
+**Nivel:** Esencial
+
+### `02-ordenador-por-dentro.md`
+**Descripción:** Cómo funciona un ordenador: CPU, RAM, disco, archivos, carpetas, rutas.  
+**Duración estimada:** 15 minutos  
+**Nivel:** Esencial
+
+### `03-internet-y-web.md`
+**Descripción:** Qué es internet, cómo funciona la web, cliente-servidor, URLs, navegadores.  
+**Duración estimada:** 20 minutos  
+**Nivel:** Esencial
+
+### `04-frontend-vs-backend.md`
+**Descripción:** La diferencia entre lo que ves (frontend) y lo que no ves (backend). Ejemplos reales.  
+**Duración estimada:** 20 minutos  
+**Nivel:** Esencial
+
+### `05-primer-html.md`
+**Descripción:** Crea tu primera página web paso a paso. Código funcional en 10 minutos.  
+**Duración estimada:** 30 minutos (incluye práctica)  
+**Nivel:** Esencial
+
+### `06-juega-con-codigo.md`
+**Descripción:** Experimentos prácticos: modifica estilos, añade interactividad, rompe código y arréglalo.  
+**Duración estimada:** 45 minutos (práctica intensa)  
+**Nivel:** Esencial
+
+### `07-herramientas-desarrollador.md`
+**Descripción:** Cómo usar las DevTools del navegador: inspeccionar, modificar, debuggear, consola.  
+**Duración estimada:** 30 minutos  
+**Nivel:** Esencial
+
+### `08-experimentar-sin-miedo.md`
+**Descripción:** Cómo lidiar con errores, cambiar tu mentalidad, estrategias de debugging, experimentación.  
+**Duración estimada:** 20 minutos  
+**Nivel:** Esencial
+
+---
+
+## Tiempo total estimado
+
+**3-4 horas** (leyendo y practicando)
+
+Puedes hacerlo en:
+- Una tarde completa
+- Dos sesiones de 2 horas
+- Una semana a ritmo tranquilo (30 min/día)
+
+**No hay prisa.** Lo importante es entender, no correr.
+
+---
+
+## Cómo usar este módulo
+
+### 1. Lee en orden
+
+Los módulos están diseñados secuencialmente. Cada uno asume que entendiste el anterior.
+
+### 2. Practica mientras lees
+
+No solo leas. Cuando veas código:
+- Créalo en tu ordenador
+- Modifícalo
+- Experimenta
+- Rómpelo y arréglalo
+
+### 3. Tómate descansos
+
+Si algo no te queda claro:
+- Vuelve a leerlo
+- Tómate un descanso
+- Continúa al día siguiente
+- Búscalo en Google
+
+### 4. No te saltes módulos
+
+Aunque parezcan "teóricos", sientan bases importantes. Entender **por qué** algo funciona es tan importante como saber **cómo** funciona.
 
 ---
 

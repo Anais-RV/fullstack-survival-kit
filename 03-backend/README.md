@@ -1,297 +1,202 @@
-# Backend
+# Backend con Python
 
-Ya sabes programar y ya sabes hacer interfaces. Ahora vas a construir el servidor que hace que todo funcione.
-
-**Este bloque te enseña a crear la lógica de negocio, APIs y sistemas del lado del servidor.**
+> **Del servidor vanilla a Django profesional**
 
 ---
 
-## Sobre este bloque
+## ¿Qué aprenderás aquí?
 
-Backend es todo lo que el usuario no ve: la lógica, los datos, la seguridad, las reglas del sistema.
+Este módulo te enseña a crear el **backend** de aplicaciones web desde cero: primero construyendo servidores con Python puro para entender los fundamentos, y luego utilizando Django para desarrollo profesional.
 
-Este bloque introduce también **Programación Orientada a Objetos (POO)** de forma aplicada: no como teoría abstracta, sino como herramienta para modelar sistemas reales.
-
-La estructura sigue este orden:
-1. **Servidor básico** — Qué es y cómo funciona
-2. **APIs REST** — Exponer datos y funcionalidad
-3. **POO aplicada** — Modelar sistemas con clases y objetos
-4. **Sistema práctico (tipo juego)** — Aplicar POO en un sistema vivo
-5. **Autenticación** — Proteger recursos
-6. **Arquitectura backend** — Estructurar código mantenible
-
-Al final de este bloque serás capaz de construir servidores completos con lógica compleja.
+**Tecnologías principales:**
+- **Python vanilla** - http.server, manejo directo de HTTP
+- **MVC manual** - Arquitectura sin frameworks
+- **Django** - Framework completo y profesional
+- **REST APIs** - Arquitectura de comunicación
+- **JWT** - Autenticación con tokens
+- **bcrypt** - Hashing de contraseñas
 
 ---
 
-## Bloque 1: Servidor básico
+## Estructura del módulo
 
-Qué es un servidor y cómo funciona por dentro.
+### Bloque 1: Servidor básico
+**[📁 bloque-01-servidor-basico/](./bloque-01-servidor-basico/)**
 
-### `01-que-es-servidor.md`
-**Descripción:** Qué hace un servidor, diferencia con el navegador, request-response.  
-**Nivel:** Esencial
+Fundamentos de HTTP y servidores con Python vanilla.
 
-### `02-primer-servidor-http.md`
-**Descripción:** Crear tu primer servidor que responda "Hola mundo".  
-**Nivel:** Esencial
+1. [Introducción a HTTP](./bloque-01-servidor-basico/01-introduccion-http.md) - Protocolo web, peticiones/respuestas
+2. [Primer servidor Python](./bloque-01-servidor-basico/02-primer-servidor-python.md) - http.server, hola mundo
+3. [Procesamiento de requests](./bloque-01-servidor-basico/03-procesamiento-requests.md) - Manejo manual de HTTP
+4. [Rutas y enrutamiento](./bloque-01-servidor-basico/04-rutas-enrutamiento.md) - Sistema de rutas desde cero
+5. [Debugging y testing](./bloque-01-servidor-basico/05-debugging-testing.md) - Herramientas de desarrollo
 
-### `03-rutas-parametros.md`
-**Descripción:** Definir rutas, capturar parámetros de URL, query params.  
-**Nivel:** Esencial
+### Bloque 2: APIs REST vanilla
+**[📁 bloque-02-apis-rest/](./bloque-02-apis-rest/)**
 
-### `04-metodos-http-servidor.md`
-**Descripción:** GET, POST, PUT, DELETE. Qué hace cada uno en el servidor.  
-**Nivel:** Esencial
+Arquitectura REST con Python puro.
 
-### `05-request-body.md`
-**Descripción:** Recibir datos del cliente. Parsear JSON.  
-**Nivel:** Esencial
+6. [Introducción a REST](./bloque-02-apis-rest/06-introduccion-rest.md) - Arquitectura, principios
+7. [Métodos HTTP](./bloque-02-apis-rest/07-metodos-http.md) - GET, POST, PUT, DELETE
+8. [Sistema de enrutamiento](./bloque-02-apis-rest/08-sistema-enrutamiento.md) - Router personalizado
+9. [JSON y serialización](./bloque-02-apis-rest/09-json-serializacion.md) - Manejo de datos
+10. [Status codes](./bloque-02-apis-rest/10-status-codes.md) - Códigos de respuesta HTTP
+11. [Manejo de errores](./bloque-02-apis-rest/11-errores.md) - try/except, error handlers
+12. [Testing con Postman](./bloque-02-apis-rest/12-testing-postman.md) - Pruebas de APIs
 
-### `06-response-formatos.md`
-**Descripción:** Devolver JSON, texto, HTML. Códigos de estado.  
-**Nivel:** Esencial
+### Bloque 3: POO aplicada
+**[📁 bloque-03-poo-aplicada/](./bloque-03-poo-aplicada/)**
 
----
+Programación orientada a objetos para backend profesional.
 
-## Bloque 2: API REST completa
+13. [Clases y objetos](./bloque-03-poo-aplicada/13-clases-objetos.md) - Fundamentos de POO
+14. [Herencia](./bloque-03-poo-aplicada/14-herencia.md) - Jerarquías de clases
+15. [Composición](./bloque-03-poo-aplicada/15-composicion.md) - Relaciones entre objetos
+16. [Modelado de dominio](./bloque-03-poo-aplicada/16-modelado-dominio.md) - Diseño de entidades
+17. [Patrones de diseño](./bloque-03-poo-aplicada/17-patrones-diseno.md) - Singleton, Factory, Repository
+18. [Principios SOLID](./bloque-03-poo-aplicada/18-solid.md) - Código mantenible
 
-Diseñar y construir APIs profesionales.
+### Bloque 4: Sistema práctico
+**[📁 bloque-04-sistema-practico/](./bloque-04-sistema-practico/)**
 
-### `07-que-es-api-rest.md`
-**Descripción:** Principios REST, recursos, verbos HTTP. Diseño de URLs.  
-**Nivel:** Esencial
+Proyecto completo aplicando POO: juego RPG con API REST vanilla.
 
-### `08-crud-completo.md`
-**Descripción:** Create, Read, Update, Delete. CRUD de un recurso completo.  
-**Nivel:** Esencial
+19. [Proyecto juego RPG](./bloque-04-sistema-practico/19-proyecto-juego-rpg.md) - Introducción y arquitectura
+20. [Personajes y entidades](./bloque-04-sistema-practico/20-personajes-entidades.md) - Sistema de personajes
+21. [Sistema de combate](./bloque-04-sistema-practico/21-sistema-combate.md) - Mecánicas de batalla
+22. [API REST del juego](./bloque-04-sistema-practico/22-api-rest-juego.md) - REST API completa vanilla
 
-### `09-validacion-datos.md`
-**Descripción:** Validar datos antes de procesarlos. Devolver errores claros.  
-**Nivel:** Esencial
+### Bloque 5: Autenticación
+**[📁 bloque-05-autenticacion/](./bloque-05-autenticacion/)**
 
-### `10-middleware.md`
-**Descripción:** Funciones que se ejecutan antes de las rutas. Logging, validación, autenticación.  
-**Nivel:** Esencial
+Seguridad, autenticación y control de acceso.
 
-### `11-manejo-errores-servidor.md`
-**Descripción:** Capturar errores, no romper el servidor, devolver respuestas útiles.  
-**Nivel:** Esencial
+23. [Introducción a autenticación](./bloque-05-autenticacion/23-introduccion-autenticacion.md) - Conceptos básicos, JWT
+24. [JWT en profundidad](./bloque-05-autenticacion/24-jwt-profundidad.md) - Tokens, claims, refresh tokens
+25. [bcrypt y hashing](./bloque-05-autenticacion/25-bcrypt-hashing.md) - Protección de contraseñas
+26. [Protección de rutas](./bloque-05-autenticacion/26-proteccion-rutas.md) - Roles, permisos, decoradores
+27. [CORS y seguridad](./bloque-05-autenticacion/27-cors-seguridad.md) - Seguridad web, headers, rate limiting
+28. [Roles y sesiones](./bloque-05-autenticacion/28-roles-sesiones.md) - Sistema completo de autenticación
 
-### `12-cors-servidor.md`
-**Descripción:** Permitir que tu frontend se comunique con tu backend. Configurar CORS.  
-**Nivel:** Esencial
+### Bloque 6: Arquitectura
+**[📁 bloque-06-arquitectura/](./bloque-06-arquitectura/)**
 
----
+Patrones de arquitectura para aplicaciones escalables y mantenibles.
 
-## Bloque 3: POO aplicada
+29. [Patrón MVC](./bloque-06-arquitectura/29-patron-mvc.md) - Model-View-Controller, separación de responsabilidades
+30. [Service Layer](./bloque-06-arquitectura/30-service-layer.md) - Capa de servicios, lógica de negocio
+31. [Repository Pattern](./bloque-06-arquitectura/31-repository-pattern.md) - Abstracción de datos, Unit of Work
+32. [Validadores y DTOs](./bloque-06-arquitectura/32-validadores-dtos.md) - Validación con Pydantic, Marshmallow
+33. [Variables de entorno](./bloque-06-arquitectura/33-variables-entorno.md) - python-dotenv, configuración por entorno
+34. [Sistema de configuración](./bloque-06-arquitectura/34-sistema-configuracion.md) - ConfigManager, feature flags
 
-Programación Orientada a Objetos como herramienta para modelar sistemas.
+### Bloque 7: Django Framework
+**[📁 bloque-07-django/](./bloque-07-django/)**
 
-### `13-por-que-poo.md`
-**Descripción:** Qué problemas resuelve POO. Cuándo usarla y cuándo no.  
-**Nivel:** Esencial
+Framework profesional para desarrollo rápido y escalable.
 
-### `14-clases-objetos.md`
-**Descripción:** Crear clases, instanciar objetos, propiedades y métodos.  
-**Nivel:** Esencial
-
-### `15-constructor-inicializacion.md`
-**Descripción:** Inicializar objetos con datos. Constructor y valores por defecto.  
-**Nivel:** Esencial
-
-### `16-encapsulacion.md`
-**Descripción:** Propiedades privadas, getters, setters. Controlar acceso a datos.  
-**Nivel:** Recomendado
-
-### `17-herencia.md`
-**Descripción:** Clases que heredan de otras. Reutilizar comportamiento.  
-**Nivel:** Recomendado
-
-### `18-polimorfismo.md`
-**Descripción:** Mismo método, comportamiento diferente según la clase.  
-**Nivel:** Opcional
-
-### `19-composicion-vs-herencia.md`
-**Descripción:** Cuándo componer objetos en lugar de heredar. Flexibilidad.  
-**Nivel:** Opcional
+35. [Introducción a Django](./bloque-07-django/35-introduccion-django.md) - Por qué Django, instalación, proyecto
+36. [Models y ORM](./bloque-07-django/36-models-orm.md) - Modelos, migraciones, QuerySets
+37. [Views y URLs](./bloque-07-django/37-views-urls.md) - Vistas basadas en funciones y clases
+38. [Django REST Framework](./bloque-07-django/38-django-rest-framework.md) - Serializers, ViewSets, Routers
+39. [Autenticación en Django](./bloque-07-django/39-autenticacion-django.md) - User model, permisos, JWT
+40. [Admin y gestión](./bloque-07-django/40-admin-gestion.md) - Panel de administración personalizado
+41. [Testing en Django](./bloque-07-django/41-testing-django.md) - Tests unitarios e integración
+42. [Deployment Django](./bloque-07-django/42-deployment-django.md) - Configuración para producción
 
 ---
 
-## Bloque 4: Sistema práctico (tipo juego)
+## Requisitos previos
 
-**🎮 Aplicar POO en un sistema vivo con reglas y estado**
-
-Este bloque construye un sistema completo (puede ser un juego por turnos, un sistema de inventario, una simulación, etc.) usando POO de forma práctica.
-
-### `20-diseño-sistema.md`
-**Descripción:** Analizar el sistema a modelar. Identificar entidades, relaciones y comportamientos.  
-**Nivel:** Esencial
-
-### `21-entidades-base.md`
-**Descripción:** Crear las clases principales del sistema (ej: Personaje, Objeto, Enemigo).  
-**Nivel:** Esencial
-
-### `22-sistema-combate.md`
-**Descripción:** Implementar lógica de interacción entre entidades (ej: sistema de combate o intercambio).  
-**Nivel:** Esencial
-
-### `23-gestion-estado.md`
-**Descripción:** Mantener el estado del sistema. Quién está vivo, qué objetos existen, turnos.  
-**Nivel:** Esencial
-
-### `24-validaciones-reglas.md`
-**Descripción:** Reglas de negocio. Qué se puede y no se puede hacer en el sistema.  
-**Nivel:** Esencial
-
-### `25-api-sistema.md`
-**Descripción:** Exponer el sistema como API REST. El frontend podrá interactuar con él.  
-**Nivel:** Esencial
+- Python 3.8+ instalado
+- Editor de código (VS Code recomendado)
+- Conocimientos básicos de programación
+- Git (para control de versiones)
 
 ---
 
-## Bloque 5: Autenticación y autorización
+## Instalación
 
-Proteger recursos y gestionar usuarios.
+```powershell
+# Crear entorno virtual
+python -m venv venv
 
-### `26-autenticacion-basica.md`
-**Descripción:** Qué es autenticación. Registro y login conceptual.  
-**Nivel:** Esencial
+# Activar entorno
+.\venv\Scripts\Activate
 
-### `27-hashing-passwords.md`
-**Descripción:** Nunca guardar contraseñas en texto plano. Bcrypt.  
-**Nivel:** Esencial
+# Para Bloques 1-6 (Python vanilla)
+pip install pyjwt bcrypt python-dotenv pydantic
 
-### `28-jwt.md`
-**Descripción:** JSON Web Tokens. Cómo funcionan, qué contienen, cuándo usarlos.  
-**Nivel:** Esencial
-
-### `29-proteccion-rutas.md`
-**Descripción:** Middleware de autenticación. Solo usuarios autenticados acceden a ciertas rutas.  
-**Nivel:** Esencial
-
-### `30-autorizacion.md`
-**Descripción:** Diferencia entre autenticación y autorización. Roles y permisos.  
-**Nivel:** Recomendado
-
-### `31-refresh-tokens.md`
-**Descripción:** Tokens de larga duración. Renovar sesión sin volver a hacer login.  
-**Nivel:** Opcional
+# Para Bloque 7 (Django)
+pip install django djangorestframework djangorestframework-simplejwt django-cors-headers
+```
 
 ---
 
-## Bloque 6: Arquitectura backend
+## Proyectos del módulo
 
-Estructurar código para que escale y sea mantenible.
+### 1. API REST de tareas (Bloques 1-2) - Python Vanilla
+- Servidor HTTP desde cero
+- CRUD completo sin frameworks
+- Router personalizado
+- Manejo de errores
 
-### `32-separacion-capas.md`
-**Descripción:** Rutas, controladores, servicios, modelos. Por qué separar responsabilidades.  
-**Nivel:** Esencial
+### 2. Juego RPG con API (Bloques 3-4) - Python Vanilla
+- Sistema de personajes con POO
+- Combate por turnos
+- Gestión de items e inventario
+- API REST completa vanilla
 
-### `33-modelos-datos.md`
-**Descripción:** Representar datos del negocio. Validaciones y lógica de dominio.  
-**Nivel:** Esencial
+### 3. Sistema de autenticación (Bloque 5) - Python Vanilla
+- Registro y login sin frameworks
+- JWT tokens manual
+- Protección de rutas custom
+- Roles y permisos
 
-### `34-servicios-logica-negocio.md`
-**Descripción:** Lógica que no depende de HTTP. Reutilizable desde cualquier parte.  
-**Nivel:** Recomendado
+### 4. Arquitectura escalable (Bloque 6) - Python Vanilla
+- Patrón MVC completo manual
+- Service Layer desde cero
+- Repository Pattern custom
+- Validación con Pydantic
+- Sistema de configuración robusto
 
-### `35-variables-entorno.md`
-**Descripción:** Configuración sensible fuera del código. .env y process.env.  
-**Nivel:** Esencial
-
-### `36-manejo-archivos.md`
-**Descripción:** Subir, guardar y servir archivos (imágenes, documentos).  
-**Nivel:** Recomendado
-
-### `37-logs-depuracion.md`
-**Descripción:** Registrar eventos del servidor. Depurar en producción.  
-**Nivel:** Recomendado
-
----
-
-## Resumen de niveles
-
-### Esencial (26 módulos)
-Base para construir backends completos y funcionales.
-
-### Recomendado (8 módulos)
-Mejoran arquitectura y hacen el código más profesional.
-
-### Opcional (3 módulos)
-Profundización en temas específicos. Útiles según el proyecto.
+### 5. Aplicación completa con Django (Bloque 7)
+- Django REST Framework
+- ORM y migraciones
+- Autenticación JWT
+- Panel de administración
+- Testing completo
 
 ---
 
-## Orden de estudio sugerido
+## Progresión recomendada
 
-### Si vienes de `02-frontend`:
-Sigue el orden numérico 01 → 37. La progresión está diseñada para no dar saltos.
+1. **Bloques 1-2**: Fundamentos con Python vanilla (principiante)
+2. **Bloques 3-4**: POO y proyecto práctico vanilla (intermedio)
+3. **Bloque 5**: Autenticación sin frameworks (avanzado)
+4. **Bloque 6**: Arquitectura MVC manual (avanzado)
+5. **Bloque 7**: Django framework profesional (experto)
 
-**Parada importante:** El Bloque 4 (módulos 20-25) es donde todo cobra sentido. Ahí aplicas POO de forma práctica en un sistema completo antes de seguir.
-
-### Si ya conoces backend básico pero no POO:
-- Repasa rápido bloques 1-2 (módulos 01-12)
-- Céntrate en el bloque 3 (POO aplicada, módulos 13-19)
-- Trabaja el bloque 4 completo (sistema práctico, módulos 20-25)
-- Avanza con autenticación y arquitectura
-
-### Si conoces POO pero vienes de otro lenguaje:
-- Revisa la sintaxis en tu entorno (Node.js, Python, etc.)
-- Trabaja el bloque 4 (sistema práctico) para aplicar POO en backend
-- Enfócate en arquitectura backend (bloque 6)
+**Filosofía pedagógica**: Primero construyes TODO desde cero para entender cómo funciona internamente. Luego usas Django y apreciarás la magia que hace por ti.
 
 ---
 
-## Sobre POO en este bloque
+## Recursos adicionales
 
-**POO no se enseña como teoría académica.** Se introduce como herramienta para resolver un problema concreto: modelar sistemas con muchas entidades que interactúan.
-
-El flujo es:
-1. Entender qué es POO y para qué sirve (módulos 13-19)
-2. Aplicarla en un sistema completo y realista (módulos 20-25)
-3. Usarla en la arquitectura del backend (módulos 32-34)
-
-Si POO no te convence después del módulo 25, al menos sabrás por qué existe y cuándo usarla.
+- **[Python http.server](https://docs.python.org/3/library/http.server.html)** - Documentación oficial
+- **[REST API Tutorial](https://restfulapi.net/)** - Guía de REST
+- **[Django Documentation](https://docs.djangoproject.com/)** - Documentación oficial Django
+- **[Django REST Framework](https://www.django-rest-framework.org/)** - DRF Docs
+- **[JWT.io](https://jwt.io/)** - Debugger de JWT
+- **[OWASP](https://owasp.org/)** - Seguridad web
 
 ---
 
-## Relación con otros bloques
+## Próximos pasos
 
-### Antes de este bloque:
-- **`01-primer-contacto-digital`** → Primer contacto con código
-- **`02-fundamentos`** → Base de programación
-- **`03-frontend`** → Interfaces y consumo de APIs
+Después de completar este módulo, continuarás con:
+- **[04-bases-de-datos](../04-bases-de-datos/)** - SQL, ORMs, migraciones
+- **[05-integracion-fullstack](../05-integracion-fullstack/)** - Conectar frontend y backend
+- **[06-testing](../06-testing/)** - Pruebas automatizadas
 
-### Después de este bloque:
-- **`05-bases-de-datos`** → Persistencia de datos
-- **`06-integracion-fullstack`** → Conectar frontend + backend + BD
-
----
-
-## Proyecto recomendado
-
-Al terminar este bloque, construye una API REST completa que:
-- Tenga múltiples recursos relacionados
-- Use POO para modelar lógica compleja (puede ser el sistema del Bloque 4 extendido)
-- Incluya autenticación con JWT
-- Esté bien estructurada en capas
-
-Todavía no conectarás con base de datos (eso viene después). Usa arrays en memoria o archivos JSON.
-
----
-
-## Validación de contenido
-
-Antes de escribir estos módulos, valida que:
-- [ ] POO se introduce como herramienta, no como dogma
-- [ ] El sistema práctico (Bloque 4) es suficientemente complejo pero no abrumador
-- [ ] La progresión de servidor básico → API → POO → sistema → arquitectura tiene sentido
-- [ ] No se asume conocimiento previo de backend
-- [ ] El bloque prepara para integración con frontend y base de datos
-
----
-
-**Backend es el corazón del sistema. Aquí defines las reglas.**
-
-**Última actualización:** 21 diciembre 2025
+¡Comencemos construyendo tu primer servidor desde cero! 🚀
