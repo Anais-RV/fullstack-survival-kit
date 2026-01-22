@@ -547,5 +547,23 @@ Se puede actualizar, **documentando por qué** en este mismo archivo.
 
 ---
 
-**Última actualización:** 21 diciembre 2025  
-**Versión del índice:** 1.0
+**Última actualización:** 22 enero 2026  
+**Versión del índice:** 2.0
+
+### Registro de cambios
+
+#### v2.0 - 22 enero 2026
+- ✅ Completado bloque 00-orientacion (6 módulos)
+- ✅ Completado bloque 01-digitalizacion-basica (8 módulos)
+- ✅ Completado bloque 03-backend (42 módulos: servidor básico, APIs REST, POO, sistema práctico, autenticación, arquitectura, Django)
+- ✅ Completado bloque 04-bases-de-datos (20 módulos: fundamentos, SQL, PostgreSQL)
+- ✅ Completado bloque 05-integracion-fullstack (8 módulos)
+- ✅ Completado bloque 06-testing (4 módulos)
+- ✅ Completado bloque 07-arquitectura (3 módulos)
+- ✅ Completado bloque 08-despliegue (2 módulos)
+- ✅ Completado bloque 09-proyecto-integrador (3 módulos)
+- 🔄 Frontend React en progreso (módulos 01-23 completados)
+- ✅ Frontend fundamentos completo (39 módulos)
+
+#### v1.0 - 21 diciembre 2025
+- Estructura inicial del repositorio definida

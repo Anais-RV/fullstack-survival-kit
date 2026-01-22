@@ -60,16 +60,16 @@ El repositorio está organizado en **bloques temáticos progresivos**, cada uno 
 
 | Bloque | Contenido | Estado |
 |--------|-----------|--------|
-| **00-orientacion** | Cómo usar el repo, configurar entorno, herramientas esenciales | ✅ Disponible |
-| **01-digitalizacion-basica** | Primer contacto con código, conceptos digitales básicos, herramientas | ✅ Disponible |
+| **00-orientacion** | Cómo usar el repo, configurar entorno, herramientas esenciales | ✅ Completo |
+| **01-digitalizacion-basica** | Primer contacto con código, conceptos digitales básicos, herramientas | ✅ Completo |
 | **02-frontend** | Frontend completo: fundamentos (HTML, CSS, JS) + React 19 | 🔄 En progreso |
-| **03-backend** | Python, Django, Django REST Framework, autenticación | 📋 Planificado |
-| **04-bases-de-datos** | PostgreSQL, SQL avanzado, ORM de Django | 📋 Planificado |
-| **05-integracion-fullstack** | Conectar frontend + backend + base de datos | 📋 Planificado |
-| **06-testing** | Jest, Testing Library, Cypress, pytest, TDD | 📋 Planificado |
-| **07-arquitectura** | Patrones de diseño, clean code, escalabilidad | 📋 Planificado |
-| **08-despliegue** | Docker, CI/CD, Vercel, Railway, AWS | 📋 Planificado |
-| **09-proyecto-integrador** | Proyecto fullstack completo desde cero | 📋 Planificado |
+| **03-backend** | Python, servidor HTTP, APIs REST, POO, Django, autenticación | ✅ Completo |
+| **04-bases-de-datos** | Fundamentos, SQL desde cero, PostgreSQL avanzado | ✅ Completo |
+| **05-integracion-fullstack** | Conectar frontend + backend + base de datos | ✅ Completo |
+| **06-testing** | Testing frontend, backend, e2e con Playwright | ✅ Completo |
+| **07-arquitectura** | Clean Architecture, SOLID, Design Patterns | ✅ Completo |
+| **08-despliegue** | Docker, CI/CD con GitHub Actions | ✅ Completo |
+| **09-proyecto-integrador** | Proyecto fullstack completo, best practices, portfolio | ✅ Completo |
 
 ### 📁 Frontend (02-frontend/)
 
@@ -77,13 +77,14 @@ El bloque de frontend está dividido en dos partes:
 
 #### **Fundamentos (02-frontend/fundamentos/)** ✅ Completo
 
-Organizado en **6 bloques temáticos con 30 módulos**:
+Organizado en **6 bloques temáticos con 39 módulos**:
 
 - **Bloque 1: HTML** (5 módulos) - Estructura web, etiquetas, formularios, tablas
 - **Bloque 2: CSS** (7 módulos) - Selectores, colores, box model, flexbox, grid, responsive
 - **Bloque 3: JavaScript básico** (9 módulos) - Variables, operadores, condicionales, bucles, funciones, arrays, objetos
 - **Bloque 4: DOM** (5 módulos) - Manipulación del DOM, eventos, crear/eliminar elementos
-- **Bloque 5: JavaScript avanzado** (4 módulos) - Higher-order functions, métodos array, destructuring, asincronía
+- **Bloque 5: JavaScript avanzado** (5 módulos) - Higher-order functions, métodos array, destructuring, modules
+- **Bloque 6: Asincronía y APIs** (8 módulos) - Promises, async/await, Fetch API, consumo de APIs REST
 
 #### **React (02-frontend/react/)** 🔄 En progreso
 
@@ -93,7 +94,7 @@ Organizado en **10 bloques temáticos con 42 módulos**:
 - **Bloque 3**: Estado con useState (✅ Completo - módulos 11-15)
 - **Bloque 4**: Efectos y useEffect (✅ Completo - módulos 16-19)
 - **Bloque 5**: Formularios (🔄 En progreso - módulos 20-23)
-- **Bloques 6-10**: Routing, Context, Performance, Hooks avanzados, Proyecto final (📋 Planificados)
+- **Bloques 6-10**: Routing, Context, Performance, Hooks avanzados, Proyecto final (🔜 Próximamente)
 
 Consulta el [Índice completo](./INDICE.md) para ver el detalle de cada módulo y su progreso.
 
@@ -259,4 +260,4 @@ Si este material te ayuda en tu aprendizaje:
 
 ---
 
-*Última actualización: Enero 2026*
+*Última actualización: 22 Enero 2026*
