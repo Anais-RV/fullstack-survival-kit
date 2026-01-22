@@ -1,6 +1,4 @@
-# 🚀 FullStack Survival Kit
-
-> **Tu guía completa de supervivencia para convertirte en desarrollador/a fullstack moderno**
+# FullStack Survival Kit
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Anaïs_Rodríguez-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anaisvillanueva/)
 [![GitHub](https://img.shields.io/badge/GitHub-Anais--RV-181717?style=flat&logo=github&logoColor=white)](https://github.com/Anais-RV/fullstack-survival-kit)
@@ -8,255 +6,226 @@
 
 ---
 
-## 📚 ¿Qué es este repositorio?
+## Qué encontrarás aquí
 
-**FullStack Survival Kit** es un programa educativo completo, estructurado y progresivo para aprender desarrollo web moderno **desde cero hasta proyectos fullstack profesionales**.
+Este es un **curriculum completo de desarrollo fullstack** que escribí después de años viendo dónde se atascan las personas cuando aprenden a programar. No es una colección de tutoriales ni un curso express. Es material pensado para que entiendas, no solo para que copies.
 
-> 💡 **Proyecto pedagógico personal** creado por **[Anaïs Rodríguez Villanueva](https://www.linkedin.com/in/anaisvillanueva/)** en su tiempo libre, con el objetivo de compartir conocimiento y facilitar el aprendizaje del desarrollo web a cualquier persona con ganas de aprender.
+Cubre desde HTML hasta arquitecturas fullstack con Django y React. Todo el contenido está cerrado y probado. Lo he usado, ajustado y mejorado en formación real. No prometo que aprendas en X semanas. Prometo que si trabajas el material con cabeza, vas a entender lo que estás haciendo.
 
-Este material cubre:
-- ✅ **Frontend moderno**: HTML5, CSS3, JavaScript ES6+, React 19
-- ✅ **Backend robusto**: Python, Django, APIs REST, arquitectura de servidor
-- ✅ **Bases de datos**: PostgreSQL (SQL)
-- ✅ **Integración completa**: Conectar frontend, backend y base de datos
-- ✅ **Herramientas 2026**: pnpm, Vite 6, TypeScript, Biome, React Server Components
-- ✅ **Despliegue profesional**: Publicar tu aplicación en producción
-- ✅ **Testing y arquitectura**: Código de calidad y escalable
-
-### 🎯 ¿Para quién es este material?
-
-- **Principiantes absolutos** que quieren aprender a programar desde cero
-- **Personas en transición profesional** buscando una carrera tech
-- **Autodidactas** que necesitan una estructura clara y progresiva
-- **Docentes y mentores** buscando material educativo de calidad
-- **Desarrolladores junior** que quieren solidificar fundamentos
-
-No necesitas conocimientos previos. Solo **curiosidad, paciencia y ganas de aprender**.
+**Proyecto personal** creado por **[Anaïs Rodríguez Villanueva](https://www.linkedin.com/in/anaisvillanueva/)** en tiempo libre, con licencia abierta para que cualquiera pueda aprender sin barreras económicas.
 
 ---
 
-## 📖 Antes de empezar
+## Para quién está pensado
 
-**👉 Lee primero el [Manifiesto Pedagógico](./MANIFIESTO_PEDAGOGICO.md)**
+**Te va a servir si:**
+- Empiezas desde cero y necesitas una ruta clara sin perderte en tutoriales infinitos
+- Vienes de otro sector y quieres entender los fundamentos de verdad, no solo usar frameworks
+- Ya programas un poco pero tienes lagunas grandes y te cuesta integrar frontend, backend y base de datos
+- Eres docente y buscas material estructurado con progresión pedagógica pensada
 
-El manifiesto explica:
-- 🎓 Cómo está diseñado este material y su filosofía educativa
-- 🚶‍♀️ Cómo se recomienda usarlo (ritmo, secuencia, práctica)
-- 💡 Qué tipo de aprendizaje promueve (activo, reflexivo, constructivo)
-- ❤️ Cómo entendemos el error y respetamos el ritmo de cada persona
-- 🌱 Por qué el aprendizaje profundo requiere tiempo y práctica
+**No te va a servir si:**
+- Buscas aprender React en 3 días sin tocar JavaScript
+- Quieres un bootcamp ultra-rápido sin profundizar
+- No tienes tiempo para hacer ejercicios y solo quieres leer teoría
+- Esperas que alguien te resuelva cada duda (aquí hay material, no tutorías)
 
-**Es importante que conozcas la filosofía detrás de este repositorio** antes de sumergirte en el contenido técnico. Este material se creó con una visión pedagógica clara y humana.
-
----
-
----
-
-## 🗂️ Estructura del repositorio
-
-El repositorio está organizado en **bloques temáticos progresivos**, cada uno con teoría, ejemplos prácticos y ejercicios:
-
-### 📂 Bloques principales
-
-| Bloque | Contenido | Estado |
-|--------|-----------|--------|
-| **00-orientacion** | Cómo usar el repo, configurar entorno, herramientas esenciales | ✅ Completo |
-| **01-digitalizacion-basica** | Primer contacto con código, conceptos digitales básicos, herramientas | ✅ Completo |
-| **02-frontend** | Frontend completo: fundamentos (HTML, CSS, JS) + React 19 | 🔄 En progreso |
-| **03-backend** | Python, servidor HTTP, APIs REST, POO, Django, autenticación | ✅ Completo |
-| **04-bases-de-datos** | Fundamentos, SQL desde cero, PostgreSQL avanzado | ✅ Completo |
-| **05-integracion-fullstack** | Conectar frontend + backend + base de datos | ✅ Completo |
-| **06-testing** | Testing frontend, backend, e2e con Playwright | ✅ Completo |
-| **07-arquitectura** | Clean Architecture, SOLID, Design Patterns | ✅ Completo |
-| **08-despliegue** | Docker, CI/CD con GitHub Actions | ✅ Completo |
-| **09-proyecto-integrador** | Proyecto fullstack completo, best practices, portfolio | ✅ Completo |
-
-### 📁 Frontend (02-frontend/)
-
-El bloque de frontend está dividido en dos partes:
-
-#### **Fundamentos (02-frontend/fundamentos/)** ✅ Completo
-
-Organizado en **6 bloques temáticos con 39 módulos**:
-
-- **Bloque 1: HTML** (5 módulos) - Estructura web, etiquetas, formularios, tablas
-- **Bloque 2: CSS** (7 módulos) - Selectores, colores, box model, flexbox, grid, responsive
-- **Bloque 3: JavaScript básico** (9 módulos) - Variables, operadores, condicionales, bucles, funciones, arrays, objetos
-- **Bloque 4: DOM** (5 módulos) - Manipulación del DOM, eventos, crear/eliminar elementos
-- **Bloque 5: JavaScript avanzado** (5 módulos) - Higher-order functions, métodos array, destructuring, modules
-- **Bloque 6: Asincronía y APIs** (8 módulos) - Promises, async/await, Fetch API, consumo de APIs REST
-
-#### **React (02-frontend/react/)** 🔄 En progreso
-
-Organizado en **10 bloques temáticos con 42 módulos**:
-
-- **Bloque 1-2**: Introducción y componentes (✅ Completo - módulos 01-10)
-- **Bloque 3**: Estado con useState (✅ Completo - módulos 11-15)
-- **Bloque 4**: Efectos y useEffect (✅ Completo - módulos 16-19)
-- **Bloque 5**: Formularios (🔄 En progreso - módulos 20-23)
-- **Bloques 6-10**: Routing, Context, Performance, Hooks avanzados, Proyecto final (🔜 Próximamente)
-
-Consulta el [Índice completo](./INDICE.md) para ver el detalle de cada módulo y su progreso.
+Este contenido asume que tienes autonomía, ganas de pensar y tolerancia al error. Si te frustras cuando algo no funciona a la primera, la programación no va a ser fácil.
 
 ---
 
-## 🛠️ Tecnologías y herramientas (2026)
+## Antes de empezar: lee el manifiesto
 
-Este material está actualizado con las **últimas versiones y tendencias de 2026**:
+El [Manifiesto Pedagógico](./MANIFIESTO_PEDAGOGICO.md) explica la filosofía detrás de este material: cómo está diseñado, por qué está en este orden, cómo entiendo el error y el ritmo de aprendizaje.
 
-### Frontend
-- **React 19** (Server Components, Actions, Compiler)
-- **Vite 6** (build ultra-rápido)
-- **pnpm 9** (package manager moderno, 3x más rápido que npm)
-- **TypeScript 5+**
-- **Biome** (ESLint + Prettier unificado, 100x más rápido)
-
-### Backend
-- **Python 3.12+**
-- **Django 5.x** (framework web completo)
-- **Django REST Framework** (APIs REST)
-- **PostgreSQL 16+** (base de datos relacional)
-- **psycopg3** (conector PostgreSQL)
-- **pytest** (testing para Python)
-
-### Herramientas
-- **VS Code** con extensiones recomendadas
-- **Git y GitHub** (control de versiones)
-- **Postman / Thunder Client** (testing APIs)
-- **Docker** (contenedores)
+No es un documento corporativo. Es honesto. Léelo antes de sumergirte en el contenido técnico, te va a ayudar a entender el enfoque.
 
 ---
 
-## 🚀 Cómo empezar
+## Estructura del curriculum
 
-### 1. **Clona el repositorio**
+El material está organizado en **bloques progresivos**. Puedes saltarte módulos si ya los dominas, pero la progresión está pensada: cada bloque construye sobre los anteriores.
 
-```bash
-git clone https://github.com/Anais-RV/fullstack-survival-kit.git
-cd fullstack-survival-kit
-```
+### Stack tecnológico
 
-### 2. **Lee la orientación**
+**Frontend:** HTML5, CSS3, JavaScript ES6+, React 19, Vite 6, TypeScript  
+**Backend:** Python 3.12+, Django 5.x, Django REST Framework  
+**Base de datos:** PostgreSQL 16+  
+**Herramientas:** Git, Docker, pytest, Playwright
 
-Comienza por la carpeta [00-orientacion](./00-orientacion/README.md) para:
-- Entender cómo navegar el repositorio
-- Configurar tu entorno de desarrollo
-- Conocer las herramientas esenciales
+Este stack no es arbitrario. Es el que veo en ofertas reales de trabajo y el que mejor equilibra curva de aprendizaje con empleabilidad.
 
-### 3. **Sigue el orden progresivo**
+### Bloques de contenido
 
-El material está diseñado para seguirse **en orden secuencial**:
+| Bloque | Contenido | Módulos |
+|--------|-----------|---------|
+| **00-orientacion** | Configurar entorno, herramientas, Git básico | 6 |
+| **01-digitalizacion-basica** | Conceptos digitales, primer contacto con código | 8 |
+| **02-frontend** | HTML, CSS, JavaScript, DOM, asincronía, React | 81 |
+| **03-backend** | HTTP, APIs REST, POO, Django, autenticación | 42 |
+| **04-bases-de-datos** | SQL, PostgreSQL, modelado, optimización | 20 |
+| **05-integracion-fullstack** | Conectar frontend + backend + BD | 8 |
+| **06-testing** | Jest, pytest, Playwright, TDD | 4 |
+| **07-arquitectura** | Clean Architecture, SOLID, patrones | 3 |
+| **08-despliegue** | Docker, CI/CD, producción | 2 |
+| **09-proyecto-integrador** | Ecommerce completo, buenas prácticas | 3 |
 
-```
-00-orientacion → 01-digitalizacion-basica → 02-frontend/fundamentos → 02-frontend/react → 03-backend → ...
-```
+**Total:** ~177 módulos
 
-Cada módulo incluye:
-- 📖 **Teoría clara y concisa**
-- 💻 **Ejemplos de código comentados**
-- ✏️ **Ejercicios prácticos**
-- 🔗 **Navegación entre módulos**
-
-### 4. **Practica, practica, practica**
-
-**El código no se aprende leyendo, se aprende escribiendo.** Haz todos los ejercicios, experimenta, rompe cosas, arregla errores. Ese es el camino.
+Cada módulo incluye teoría, ejemplos ejecutables y ejercicios. No es lectura pasiva.
 
 ---
 
-## 👩‍💻 Sobre la autora
+## Cómo recorrer el material sin perderte
 
-### **Anaïs Rodríguez Villanueva**
+### Si empiezas desde cero
+
+Sigue el orden: `00-orientacion → 01-digitalizacion-basica → 02-frontend/fundamentos → 02-frontend/react → ...`
+
+**No te saltes los fundamentos de JavaScript.** He visto demasiada gente intentando aprender React sin entender funciones, arrays u objetos. No funciona. Te frustras y abandonas.
+
+### Si ya tienes experiencia
+
+Ve al bloque que necesites. Cada módulo indica qué conocimientos previos asume. Si algo no cuadra, vuelve atrás sin drama. Consultar material anterior no es retroceder, es sentar bases.
+
+### Ritmo recomendado
+
+No hay prisa. Un módulo al día si puedes. Dos o tres por semana si no. Lo importante no es la velocidad, es que ejecutes los ejercicios y entiendas lo que pasa.
+
+**El código no se aprende leyendo. Se aprende escribiendo, rompiendo cosas y arreglándolas.**
+
+### Navegación
+
+- Cada módulo tiene enlaces al anterior y al siguiente
+- El [INDICE.md](./INDICE.md) tiene la estructura completa con descripciones
+- Los README de cada carpeta funcionan como puntos de entrada
+
+---
+
+## Decisiones pedagógicas clave
+
+### Por qué vanilla antes que frameworks
+
+Enseño HTML, CSS y JavaScript puro antes de React porque he visto qué pasa cuando alguien aprende frameworks sin bases: en cuanto algo falla, no sabe qué buscar. No entiende qué es DOM, qué es un evento, qué es asincronía.
+
+React es fantástico. Pero sin JavaScript, React es magia incomprensible.
+
+### Por qué Python y Django en backend
+
+Python tiene sintaxis clara y Django es un framework completo que enseña arquitectura web de verdad. No es el stack más cool, pero es sólido, empleable y didáctico.
+
+Si después prefieres Node, Go o Rust, adelante. Los conceptos se transfieren.
+
+### Por qué PostgreSQL
+
+Porque las bases de datos relacionales siguen siendo el estándar en la industria. SQL es una habilidad que usarás durante décadas. NoSQL también importa, pero SQL primero.
+
+### Por qué tanto énfasis en fundamentos
+
+Porque los frameworks cambian cada dos años. Los fundamentos no.
+
+Si entiendes HTTP, APIs REST, arquitectura cliente-servidor, autenticación con tokens y manejo de estado, puedes aprender cualquier framework en semanas.
+
+Si solo memorizas sintaxis de React sin entender nada de lo anterior, cada proyecto nuevo es un infierno.
+
+---
+
+## Estado actual del curriculum
+
+## Estado actual del curriculum
+
+**El contenido está cerrado y estable.** Todos los bloques principales están escritos, revisados y probados. React tiene ~23 módulos activos (componentes, estado, efectos, formularios) y se irá completando según vea necesidad en formaciones reales.
+
+Esto no significa que sea perfecto. Encontrarás typos, ejemplos que se pueden mejorar, explicaciones que se pueden aclarar. Si ves algo, abre un issue o manda un PR. El material está vivo, pero no "en construcción eterna".
+
+**No esperes actualizaciones semanales.** Actualizo cuando detecto lagunas reales o cuando cambian tecnologías de forma significativa, no por moda.
+
+---
+
+## Sobre mí
+
+### Anaïs Rodríguez Villanueva
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-anaisvillanueva-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anaisvillanueva/)
 [![GitHub](https://img.shields.io/badge/GitHub-Anais--RV-181717?style=flat&logo=github&logoColor=white)](https://github.com/Anais-RV)
 
-**Desarrolladora fullstack, educadora tecnológica y creadora de contenido pedagógico.**
+Desarrolladora fullstack, formadora técnica. Vengo del mundo del marketing digital, pasé por un bootcamp, aprendí a base de frustrarme y rehacer proyectos, y ahora formo a otras personas.
 
-#### 🎓 Formación
-- **Técnico Superior en Desarrollo de Aplicaciones Informáticas y Analista**
-- **Máster en Inteligencia Artificial y Big Data**
-- **Bootcamp Desarrollo Web Fullstack**
+**Formación:**
+- Técnico Superior en Desarrollo de Aplicaciones Informáticas y Analista
+- Máster en Inteligencia Artificial y Big Data
+- Bootcamp Desarrollo Web Fullstack
 
-#### 💼 Experiencia
-- Experiencia profesional en **desarrollo de aplicaciones web**
-- Experiencia en **docencia y formación tecnológica**
-- Experiencia en **marketing online**
+**Experiencia:**
+- Desarrollo de aplicaciones web (frontend y backend)
+- Docencia y formación tecnológica
+- Marketing online (vida anterior)
 
-#### 🌟 Filosofía educativa
+### Filosofía de enseñanza
 
-Aprender a programar no va de memorizar sintaxis ni de seguir tutoriales infinitos.  
-Va de **entender, equivocarse, ajustar y volver a intentarlo**.
+Aprender a programar no es memorizar sintaxis. Es aprender a pensar, equivocarse, ajustar y volver a intentar. Conozco bien el vértigo que da ver un error incomprensible o el bloqueo de "no sé ni qué buscar en Google".
 
-Soy exalumna digi-evolucionada a desarrolladora, con vocación docente desde siempre, así que conozco bien el vértigo, la frustración y los bloqueos que aparecen al aprender desarrollo web. Por eso diseño materiales que priorizan:
+Por eso este material prioriza:
 
-- 🧠 **Aprender a aprender**, por encima de cualquier framework concreto
-- 🔥 **Autonomía y pensamiento crítico**: mis alumnos incendian proyectos y yo les enseño a ser bomberos
-- 🧩 **Pedagogía activa y trabajo por proyectos**, con problemas reales y decisiones técnicas reales
-- 🤝 **Inclusión de verdad**: explicaciones claras, ritmos diferenciados y acompañamiento respetuoso
-- 🧪 **Buenas prácticas profesionales desde el inicio**: código legible, testing, control de versiones y criterio técnico
+- **Aprender a aprender**, no a seguir tutoriales
+- **Autonomía real**: mis alumnos incendian proyectos y yo les enseño a ser bomberos
+- **Pedagogía activa**: problemas reales, decisiones técnicas reales
+- **Explicaciones claras**, sin asumir que ya sabes términos que nadie te explicó
+- **Buenas prácticas desde el inicio**: código legible, control de versiones, criterio técnico
 
 Este repositorio no pretende que lo sepas todo.  
-**Pretende que sepas volver, entender qué estás haciendo y seguir creciendo cuando el bootcamp ya terminó.**
+**Pretende que sepas volver, entender qué haces y seguir creciendo por tu cuenta.**
 
 ---
 
-## 📄 Licencia
+## Licencia
 
-Este material está bajo licencia **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
+**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**
 
-**Esto significa que puedes:**
-- ✅ Compartir — Copiar y redistribuir el material en cualquier medio o formato
-- ✅ Adaptar — Remezclar, transformar y construir sobre el material
+Puedes compartir, adaptar y redistribuir este material siempre que:
+- **Atribuyas la autoría** (Anaïs Rodríguez Villanueva)
+- **No lo uses comercialmente**
+- **Compartas tus adaptaciones bajo la misma licencia**
 
-**Bajo las siguientes condiciones:**
-- 📝 **Atribución** — Debes dar crédito apropiado, proporcionar un enlace a la licencia e indicar si se hicieron cambios
-- 🚫 **No comercial** — No puedes usar el material con fines comerciales
-- 🔄 **Compartir igual** — Si remezclas, transformas o construyes sobre el material, debes distribuir tus contribuciones bajo la misma licencia
+Ver [LICENSE](LICENSE) para texto legal completo.
 
-**Autor original:** Anaïs Rodríguez Villanueva  
-**Repositorio:** https://github.com/Anais-RV/fullstack-survival-kit  
+**Autor:** Anaïs Rodríguez Villanueva  
 **Contacto:** [LinkedIn](https://www.linkedin.com/in/anaisvillanueva/)
 
 ---
 
-## 🤝 Contribuciones
+## Contribuciones
 
-Este es un **proyecto abierto y en constante evolución**. Si encuentras errores, tienes sugerencias o quieres contribuir con contenido:
+Si encuentras errores, mejoras en explicaciones o ejemplos que se pueden aclarar:
 
-1. **Abre un Issue** describiendo el problema o mejora
-2. **Crea un Pull Request** con tus cambios
-3. **Comparte tu experiencia** usando este material
+1. Abre un **issue** con descripción clara
+2. Manda un **pull request** si sabes cómo solucionarlo
+3. Comparte tu experiencia usando el material
 
-### Áreas donde puedes contribuir:
-- 📝 Correcciones de errores o typos
-- 💡 Mejoras en explicaciones o ejemplos
-- ✨ Nuevos ejercicios o proyectos
-- 🌍 Traducciones a otros idiomas
-- 🎨 Mejoras en la presentación
-
-**Todas las contribuciones son bienvenidas y se reconocerán apropiadamente.**
+Todas las contribuciones se reconocen apropiadamente.
 
 ---
 
-## ⭐ ¿Te ha sido útil?
+## Uso y difusión
 
-Si este material te ayuda en tu aprendizaje:
-- ⭐ **Dale una estrella** al repositorio
-- 🔗 **Compártelo** con otras personas que estén aprendiendo
-- 💬 **Deja un comentario** con tu experiencia
-- 📣 **Sígueme** en [LinkedIn](https://www.linkedin.com/in/anaisvillanueva/) para más contenido educativo
+Si este material te ayuda:
+- Dale una estrella al repositorio
+- Compártelo con quien lo necesite
+- Sígueme en [LinkedIn](https://www.linkedin.com/in/anaisvillanueva/) si quieres ver más contenido técnico
 
----
-
-## 📞 Contacto
-
-- **LinkedIn:** https://www.linkedin.com/in/anaisvillanueva/
-- **GitHub:** https://github.com/Anais-RV
-- **Email:** [A través de LinkedIn]
+No hace falta permiso para usar el material. Está aquí para eso.
 
 ---
 
-**Este es un proyecto vivo, en constante mejora. Tu aprendizaje es lo importante. ¡Bienvenido/a al FullStack Survival Kit!** 🚀
+## Contacto
+
+**LinkedIn:** https://www.linkedin.com/in/anaisvillanueva/  
+**GitHub:** https://github.com/Anais-RV
+
+---
+
+**Este material está completo, mantenible y abierto.  
+Tu aprendizaje es lo importante.**
 
 ---
 
